@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#ffffff;
+}
+
+
+header{
+    color:#4674b3;
+    text-align:center;
+    padding:30px;
+}
+
+p{
+    color:#000000;
+}
+
+.Picture img{
+    width:180px;
+    height:180px;
+    display:block;
+    margin:auto;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.current{
+    text-align:center;
+}
+
+.high{
+    text-align:center;
+    padding-bottom: 40px;
+}
+
+
+.role{
+    text-align:center;
+}
+
+
+h3{
+    text-align:center;
+    margin-bottom:20px;
+}
+.contact form{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.contact input,
+.contact textarea{
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #c9c9c9;
+}
+
+
+button{
+    background:#343c7a;
+    color:rgb(255, 255, 255);
+    padding:12px;
+    border-radius:5px;
+}
